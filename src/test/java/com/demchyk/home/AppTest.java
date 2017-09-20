@@ -18,7 +18,7 @@ public class AppTest {
         demoQAMainBO = new DemoQAMainBO();
         demoQAMainBO.open();
         try {
-            Thread.sleep(12000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -29,7 +29,7 @@ public class AppTest {
     void method2Test() {
         DriverProvider.getDriver().get("http://google.com");
         try {
-            Thread.sleep(12000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -39,7 +39,7 @@ public class AppTest {
     void method3Test() {
         DriverProvider.getDriver().get("http://bing.com");
         try {
-            Thread.sleep(12000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -50,7 +50,7 @@ public class AppTest {
     void method4Test() {
         DriverProvider.getDriver().get("http://yahoo.com");
         try {
-            Thread.sleep(12200);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
