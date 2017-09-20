@@ -1,8 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Suit1">
-    <test name="Smoke">
-        <classes>
-            <class name="com.demchyk.home.AppTest"/>
-        </classes>
-    </test>
-</suite>

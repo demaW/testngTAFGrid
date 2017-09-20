@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class DemoQaMain extends AbstractPage{
     private static final String SITE_URL = "http://demoqa.com/";
-    private static final String HEADER_XP = "//h1[@class='entry-titlesd']";
+    private static final String HEADER_XP = "//h1[@class='entry-title']";
 
     private WebDriver driver;
 
