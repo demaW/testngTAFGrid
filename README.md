@@ -1,4 +1,4 @@
-###TestNG project for parallel execution using Selenium GRID composed in Docker containers
+### TestNG project for parallel execution using Selenium GRID composed in Docker containers
 mvn clean test
 
 compose-grid.yaml - for ChromeDriver.
